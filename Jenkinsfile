@@ -7,7 +7,7 @@ environment {
     stages {
         stage('Récupération du code de la branche') {
             steps {
-                git branch: 'MahdiENNOUR-5NIDS-G3',
+                git branch: 'master',
                 url: 'https://https://github.com/mohamedRassem/5NIDS2-G10-projet2.git'
             }
         }
