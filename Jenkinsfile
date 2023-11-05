@@ -25,7 +25,7 @@ environment {
 
         stage('MVN SONARQUBE'){
         steps {
-            sh "mvn sonar:sonar -Dsonar.login= sqp_c486b7e71b1a1e0df47518852694c46aa26bedc1"
+            sh "mvn sonar:sonar -Dsonar.login= sqp_5261e670d83ea56220e4c212211e4a24179cbe25"
         }
         }
         stage("mockito"){
