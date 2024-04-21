@@ -69,5 +69,17 @@
             </plugin>
         </plugins>
     </build>
+    <!-- Configuration pour spécifier le répertoire personnalisé des rapports de test -->
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-report-plugin</artifactId>
+                <configuration>
+                    <reportsDirectory>${project.basedir}/custom-test-reports</reportsDirectory>
+                </configuration>
+            </plugin>
+        </plugins>
+    </reporting>
 </project>
 
